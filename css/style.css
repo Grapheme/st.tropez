@@ -18,7 +18,7 @@ body {
 	position: relative;
 }
 .navigationLinksList {	
-	margin: 2.5em 0 0 0;
+	margin: 2em 0 0 0;
 }
 .navigationLink {
 	
@@ -28,21 +28,22 @@ body {
 }
 .nav-light .navigationLink a{
 	display: block;
-	margin: 0 0 2.0625em 2.2em;
+	margin: 0 0 1.6625em 2.2em;
 	
 	font-family:'Conv_FuturaNewBook',Sans-Serif;
 	color: #FFF;		
-	font-size: 0.875em;	
-	font-weight: 500;
+	font-size: 0.8em;	
+	font-weight: 700;
 	text-decoration: none;
 }
 .nav-dark .navigationLink a{
 	display: block;
-	margin: 0 0 2.0625em 2.2em;
+	margin: 0 0 1.6625em 2.2em;
 	
 	font-family:'Conv_FuturaNewBook',Sans-Serif;
 	color: #000;		
-	font-size: 0.875em;	
+	font-size: 0.8em;	
+	font-weight: 700;
 	text-decoration: none;
 }
 .nav-light .logo {
@@ -112,6 +113,7 @@ body {
 }
 .newsList .newImage {
   width: 171px;	
+  border-radius: 350px 350px;
 }
 .newsList .newContent {
   margin-left: 171px;
@@ -137,10 +139,8 @@ body {
 .newsListItem .newDescription>li:before,
 .menuItemSpecialProducts>li:before,
 .poolMenuItemSpecialProducts li:before {
-  /*content: "\2043";*/
-  content: url(../images/tir.jpg);
-  /*margin-left: 1ex;*/
-  margin-right: 1ex;
+  content: "\2014";
+  margin-left: 1ex;
   color: #535353;	
 }
 
@@ -177,11 +177,29 @@ body {
 	display: block;
 	width: 100px;
 	height: 20px;
-    background-image:url('../images/morebutton.png');
+	padding: 0 .425em;
+	
+	
+	
+	
+	background-color: #000;
+	border-radius: 9px 9px;
+    border: 2px solid #535353;
+    
+    color: #FFF;
+    text-decoration: none;
+    font-size: 0.875em;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 1px; 
 }
 .moreLink a:hover {
-	background-position: -100px 0px;
+	background-color: #FFF;
+	color: #000;
 }		
+.moreLink .moreLinkSpan{
+	float: right;
+}
 .newsAndEvents-2 h2 {
   display: inline-block;		  
   margin:0 auto 2.0625em auto;
@@ -219,7 +237,7 @@ body {
   text-align: right;	
 }
 .newItemDate {
-  font-size: .526875em;	
+  font-size: .726875em;	
 }
 .lastNewsListItem .newsItem h3 {
   margin: 0 0 1.5625em 0; /*25 px;*/	
@@ -235,7 +253,7 @@ body {
   float: left;	
   margin: 1.625em 0 0 0;
 	
-  font-size: .5625em;
+  font-size: .7625em;
   text-align: left;
   color: #75200d;	
 }
@@ -256,7 +274,13 @@ body {
   padding: 33px 0 0 0;
   text-align: center;
 }
-
+.restaurantMenuListItem .menuImage{
+  width: 171px;	
+  border-radius: 350px 350px;	
+}
+.poolMenuListItem .menuImage {
+  border-radius: 350px 350px;		
+}
 .restaurantMenu-4 h2,
 .poolMenu-6 h2 {
   display: inline-block;		  
@@ -400,7 +424,7 @@ font-family:'Conv_HelveticaNeueCyr-Thin',Sans-Serif;
 .diff {
 width: 127px; 
 height: 22px; 
-background-image: url('../images/line.jpg');	
+background-image: url('../images/line.png');	
 }
 .air_temperature,
 .water_temperature {
