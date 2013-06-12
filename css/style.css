@@ -1,0 +1,473 @@
+body {
+  margin: 0;  
+  padding: 0;
+  
+  font-family:'Conv_FuturaNewBook',Sans-Serif;
+}
+
+/*==========================================================================
+  Nav styles
+ =========================================================================== */
+.nav-light,
+.nav-dark {
+	position: fixed; 
+	top: 20%; 
+	z-index: 9999;
+}
+.navContainter {
+	position: relative;
+}
+.navigationLinksList {	
+	margin: 2.5em 0 0 0;
+}
+.navigationLink {
+	
+}
+.navigationLink:hover { 
+	list-style: url('../images/anchor.png'); 
+}
+.nav-light .navigationLink a{
+	display: block;
+	margin: 0 0 2.0625em 2.2em;
+	
+	font-family:'Conv_FuturaNewBook',Sans-Serif;
+	color: #FFF;		
+	font-size: 0.875em;	
+	font-weight: 500;
+	text-decoration: none;
+}
+.nav-dark .navigationLink a{
+	display: block;
+	margin: 0 0 2.0625em 2.2em;
+	
+	font-family:'Conv_FuturaNewBook',Sans-Serif;
+	color: #000;		
+	font-size: 0.875em;	
+	text-decoration: none;
+}
+.nav-light .logo {
+	width: 130px;
+	height: 102px;
+	text-indent: -9999px;
+	background-image: url('../images/white_logo.png');
+}
+.nav-dark .logo {
+	width: 130px;
+	height: 102px;
+	text-indent: -9999px;
+	background-image: url('../images/color_logo.png');
+}
+/*==========================================================================
+   Header (1st block styles)
+  ========================================================================== */
+.headerSlider-1 {
+  overflow: hidden ; 
+  width: 100%;   
+  height: 565px; 
+}
+.fotorama-container-1,
+.fotorama-container-2  {
+  position: relative;	
+}
+.fotorama-container-1-header,
+.fotorama-container-2-header{
+  position: absolute;
+  z-index: 999;
+  top: 2.5em;
+  right: 1.375em;
+  width: 50%;
+
+  font-size: 1.75em;
+  text-align: right;    
+  line-height: 1.3;
+}
+.fotorama-header-style-span {
+  padding: 0 .3375em;
+  background-color: #000;
+  color: #FFF;		
+  text-transform: uppercase;
+
+}
+/*==========================================================================
+   News and events (2nd block styles)
+  ========================================================================== */
+.newsAndEvents-2 {
+  padding: 2.0625em 0 4.25em 0;  
+  
+  text-align: center;
+  color: #535353;
+  }
+.newsList .newHeader {
+  border-top: 2px solid #e1e677;
+  padding: 0.3125em 0 1.95em 0.3125em; /*31px ~ 1.95em*/
+  margin: 11px 0 0 0;
+  text-align: right;
+}
+.newsList .newHeader h4 {
+  float: left;	
+}  		
+.newsTop p {
+  float: left;	
+  padding: 5px 0 0 0;
+}
+.newsList .newImage {
+  width: 171px;	
+}
+.newsList .newContent {
+  margin-left: 171px;
+  padding: 0 26px 0 15px;
+  text-align: left;	
+}
+.newsList .newContent h3 {
+  padding: 0 0 29px 0;
+	  
+  font-size: 1.625em; /*28 px from 16px*/
+  font-weight: 700;	
+  font-family:'Conv_FuturaNewBook',Sans-Serif;
+}
+/*.newsList .newContent ul li,*/
+.menuItemSpecialProducts li,
+.poolMenuItemSpecialProducts li{
+  font-size: 1.125em; /* 18px from 16px*/
+  color: #535353;
+}
+.newContent .tagLinks {
+  color: #FFF;	
+}
+.newsListItem .newDescription>li:before,
+.menuItemSpecialProducts>li:before,
+.poolMenuItemSpecialProducts li:before {
+  /*content: "\2043";*/
+  content: url(../images/tir.jpg);
+  /*margin-left: 1ex;*/
+  margin-right: 1ex;
+  color: #535353;	
+}
+
+.newsList .tagLinks,
+.menuItem .tagLinks {
+  display: inline-block;
+  
+  margin: .875em 0 .875em 0;
+  padding: .3125em; 
+  
+  background-color: #e18c44;
+  color: #FFF;	
+  font-size: .8125em;
+  line-height: 1.2;
+}
+
+.newsList .tagLinks li,
+.menuItem .tagLinks li {
+  display: inline-block;	
+}
+.newsTop .showAllLink,
+.lastNewsTop .showAllLink {
+  float: right;	
+		  
+		 /* padding: 5px 0 11px 0;  */
+		  
+  font-size: .5625em;
+  text-decoration: none;
+  color: #000;
+		  
+  line-height: 3;
+	}		
+.moreLink a{
+	display: block;
+	width: 100px;
+	height: 20px;
+    background-image:url('../images/morebutton.png');
+}
+.moreLink a:hover {
+	background-position: -100px 0px;
+}		
+.newsAndEvents-2 h2 {
+  display: inline-block;		  
+  margin:0 auto 2.0625em auto;
+  padding: 5px;
+  border: 3px solid #151515;
+		  
+  color: #272727;		  
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: 400;
+  font-family: 'Conv_MetaNormalC', sans-serif;
+}	
+
+.lastNewsTop p {
+  float: left;	
+  padding: 5px 0 5px 0;	
+}
+.lastNewsTop {
+  position: relative	
+}
+.lastNewsTop .showAllLink {
+  position: absolute;
+  right: 0px;
+  top: 0;	
+}
+.lastNewsList .lastNewsListItem{
+  /*border-top: 2px solid #bcdfef; */ 
+
+  text-align: right;	
+}
+.newItemHeader {
+  border-top: 2px solid #bcdfef;
+ padding: 0.3125em 0 2.55em 0.3125em; /*31px ~ 1.95em*/ /*padding-bottom + 1- .526875*/
+  margin: 11px 0 0 0;
+  text-align: right;	
+}
+.newItemDate {
+  font-size: .526875em;	
+}
+.lastNewsListItem .newsItem h3 {
+  margin: 0 0 1.5625em 0; /*25 px;*/	
+  text-transform: uppercase;
+  text-align: left;	
+  font-family:'Conv_FuturaNewBook',Sans-Serif;
+}
+.lastNewsListItem .newItemText {
+  font-size: .8625em;
+  text-align: left;	
+}
+.lastNewsListItem .newsItem a {
+  float: left;	
+  margin: 1.625em 0 0 0;
+	
+  font-size: .5625em;
+  text-align: left;
+  color: #75200d;	
+}
+	
+/*===================================================================
+   Restaurant slide show (3rd block styles)
+  ========================================================================== */
+.restauranSlideShow-3 {
+  width: 100%;   
+  height: 509px;
+}
+/*==========================================================================
+   Restaurant menu (4th block styles)
+  ========================================================================== */
+.restaurantMenu-4 { 
+  /*width: 100%;  */ 
+  /*height: 851px;  */
+  padding: 33px 0 0 0;
+  text-align: center;
+}
+
+.restaurantMenu-4 h2,
+.poolMenu-6 h2 {
+  display: inline-block;		  
+  margin:0 auto 2.0625em auto;
+  padding: .3125em 4.8125em;
+  border: 3px solid #232323;
+		  
+  color: #151515;		  
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: 400;
+  font-family: 'Conv_MetaNormalC', sans-serif;
+}	
+.restaurantMenu>li,
+.poolMenuList>li {
+  margin: 0 0 5.3125em 0;	
+}
+.restaurantMenu-4 .menuItem,
+.poolMenuListItem .menuItem {
+  margin-left: 171px;
+  padding: 0 6px 0 15px;
+  text-align: left;	
+}
+.menuItem .menuItemHeader,
+.poolMenuListItem .poolMenuItemHeader {
+  font-size: 1.57em;
+  
+  color: #535353;
+}
+.menuContent {
+  width: 550px;	
+  outline: 1px solid black;
+}
+.menuList {
+  margin: 0;
+  padding: 0;	
+}
+.menuList ul {
+  margin: 0;
+  padding: 0;	
+}
+.menuList>ul>li {
+  outline: 1px solid black;
+  margin-bottom: 85px;	
+}
+.menuLinks ul {
+  margin: 0;
+  padding: 0;	
+}
+.menuLinks ul li {  			
+  list-style-type: none; 
+  /*outline: 1px solid black; */		
+}
+.menuLinkItem {
+  padding: 22px 0 40px 0;	
+}
+.menuImage {
+  width: 171px;	
+  height: 171px;
+  margin: 0 auto;
+}
+.menuItem {
+  margin-left: 172px;	
+}	
+.menuItem h3,
+.poolMenuList .menuItem h3 {
+  margin: 0 0 35px 0;
+  padding: 0;					
+}
+		
+.menuLinks {
+  width: 178px;
+  margin-right: 50px;	
+}
+.menuLinkItem a {
+  text-decoration: none;
+  color: #535353;
+}
+
+
+/*==========================================================================
+   Pool slide show (5th block styles)
+  ========================================================================== */
+.poolSlideShow-5 {
+  width: 100%;   
+  height: 529px;
+}
+/*==========================================================================
+   Pool menu (6th block styles)
+  ========================================================================== */
+.poolMenu-6 {
+  padding: 33px 0 0 0;	
+  /*width: 100%;  */ 
+  /*height: 911px;*/
+  
+  text-align: center;
+}
+.poolMenuContent {
+	
+}
+/*==========================================================================
+   Map (7th block styles)
+  ========================================================================== */
+.map-7 {
+  width: 100%;   
+  height: 529px;
+}
+/*==========================================================================
+   Helping classes
+  ========================================================================== */
+.clear {
+  clear: both;
+}  
+.img-block {
+  display: block;  
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+ul li {
+list-style-type: none;	
+}
+.thin_text {
+font-weight: 400;	
+}
+.bold_text {
+font-weight: 600;	
+}
+.shtil {
+color: #535353; 
+font-size: 170px; 
+font-weight: 200; 
+font-family:'Conv_HelveticaNeueCyr-Thin',Sans-Serif; 
+}
+.contacts {	
+  margin: 1.75em auto;	
+}
+.diff {
+width: 127px; 
+height: 22px; 
+background-image: url('../images/line.jpg');	
+}
+.air_temperature,
+.water_temperature {
+color: #535353; text-align: left; font-family:'Conv_FuturaNewBook',Sans-Serif;		
+}
+.temperatureSpan {
+font-size: 3em;	
+}
+/*===========================================================================
+ fotorama dots overlay
+ ============================================================================ */
+/* fotorama_dots-overlay */
+.fotorama_dots-overlay .fotorama__thumbs {
+  position: absolute;
+  bottom: 0;
+}
+.fotorama_dots-overlay .fotorama__thumbs-shaft {
+  /*background-color: rgb(0, 0, 0);*/
+  /*background-color: rgba(0, 0, 0, .5);*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.fotorama_dots-overlay .fotorama__thumb__dot {
+  background-color: #fff;
+}
+
+/* fotorama_circles */
+	.fotorama_circles .fotorama__thumb {
+		width: 20px;
+		height: 20px;
+	}
+	.fotorama_circles .fotorama__thumb__dot {
+		background: #fff;
+    /*border: 1px solid #000;*/
+    border-radius: 12px;
+    height: 10px;
+    width: 10px;
+		top: -30px;
+		left: 3px;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity: 1;
+	}
+	.fotorama_circles .fotorama__thumb:hover .fotorama__thumb__dot {
+		background: #ccc;
+	}
+	.fotorama_circles .fotorama__thumb_selected .fotorama__thumb__dot,
+	.fotorama_circles .fotorama__thumb_selected:hover .fotorama__thumb__dot {
+		background: #535353;
+		box-shadow: inset 0 0 0 4px #fff;
+	}
+	
+/*fotorama arrows */
+.arrows{
+    height: 148px;
+    width: 50px;
+	float:left;
+}
+
+.left_arrow {
+    background: url("../images/arrows.png") no-repeat scroll 0 0 transparent;
+}
+.right_arrow {
+    background: url("../images/arrows.png") no-repeat scroll -50px 0 transparent;
+}
+.fotorama__arr{
+top: 45%;
+}
+.fotorama__arr_next { top: 85%; left: 75%; }
+.fotorama__arr_prev { top: 85%; left: 25%; }
