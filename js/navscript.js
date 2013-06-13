@@ -40,4 +40,4 @@ topClip=mainoffset-$(window).scrollTop()-(navdark.offset().top-$(window).scrollT
 if(nsOffsetBot>=$(elt).offset().top&&($(elt).attr('data-menu')=='footer')){var deltaBottom=$(elt).offset().top-nsOffsetBot+30;navdark.css('top',deltaBottom);if($(elt).prev().attr('data-menu')=='light')
 $(".nav-light").css('clip','rect(auto, auto, 370px, auto)');else
 $(".nav-dark").css('clip','rect(auto, auto, 370px, auto)');}
-else{navdark.css('top','120px');}}});
+else{navdark.css('top','60px');}}});

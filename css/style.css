@@ -11,8 +11,9 @@ body {
 .nav-light,
 .nav-dark {
 	position: fixed; 
-	/*top: 20%; */
+	top: 60px;
 	z-index: 9999;
+	height: 400px;
 }
 .navContainter {
 	position: relative;
@@ -41,7 +42,7 @@ body {
 	margin: 0 0 1.6625em 2.2em;
 	
 	font-family:'Conv_FuturaNewBook',Sans-Serif;
-	color: #000;		
+	color: #535353;		
 	font-size: 0.8em;	
 	font-weight: 700;
 	text-decoration: none;
@@ -76,7 +77,7 @@ body {
   z-index: 999;
   top: 2.5em;
   right: 1.375em;
-  width: 50%;
+  width: 75%;
 
   font-size: 1.75em;
   text-align: right;    
@@ -106,10 +107,16 @@ body {
 }
 .newsList .newHeader h4 {
   float: left;	
+  font-family: 'Conv_MetaNormalC', sans-serif;  
 }  		
-.newsTop p {
+.newsTop p,
+.lastNewsTop p {
   float: left;	
   padding: 0 0 0 0;
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: 'Conv_MetaNormalC', sans-serif;
 }
 .newsList .newImage {
   width: 171px;	
@@ -186,7 +193,12 @@ body {
   color: #535353;
   text-transform: uppercase;		  
   line-height: 1.8;
-	}		
+	}	
+/*.newsTop .showAllLink:hover,
+.lastNewsTop .showAllLink:hover{
+  color: #f2784e;
+  border: 3px solid #f2784e;	
+}*/			
 .moreLink a{
 	display: block;
 	width: 100px;
@@ -227,10 +239,6 @@ body {
   font-family: 'Conv_MetaNormalC', sans-serif;
 }	
 
-.lastNewsTop p {
-  float: left;	
-  padding: 0 0 0 0;	
-}
 .lastNewsTop {
   position: relative	
 }
@@ -272,7 +280,7 @@ body {
   color: #121212;	
   font-size: .8625em;
   text-align: left;	
-  line-height: 1.3;
+  line-height: 1.4;
 }
 .lastNewsListItem .newsItem a {
   float: left;	
@@ -457,6 +465,12 @@ color: #535353; text-align: left; font-family:'Conv_FuturaNewBook',Sans-Serif;
 }
 .temperatureSpan {
 font-size: 3em;	
+}
+.right-links {
+	text-decoration: none;
+}
+.span-in-link {	
+	color: #535353;	
 }
 /*===========================================================================
  fotorama dots overlay
