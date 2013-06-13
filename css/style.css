@@ -21,12 +21,6 @@ body {
 .navigationLinksList {	
 	margin: 2em 0 0 0;
 }
-.navigationLink {
-	
-}
-.navigationLink:hover { 
-	list-style: url('../images/anchor.png'); 
-}
 .nav-light .navigationLink a{
 	display: block;
 	margin: 0 0 1.6625em 2.2em;
@@ -59,6 +53,10 @@ body {
 	text-indent: -9999px;
 	background-image: url('../images/color_logo.png');
 }
+.selected{ 
+	border: 1px solid black;
+	background: url('../images/anchor.png')
+	}
 /*==========================================================================
    Header (1st block styles)
   ========================================================================== */
@@ -417,7 +415,7 @@ body {
 /*==========================================================================
    Map (7th block styles)
   ========================================================================== */
-.map-7 {
+#map-canvas {
   width: 100%;   
   height: 529px;
 }
