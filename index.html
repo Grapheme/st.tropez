@@ -15,29 +15,7 @@
 <link rel="stylesheet" type="text/css" href="css/futura.css" charset="utf-8">
 
 <link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script>
-function initialize() {
-  var mapOptions = {
-    zoom: 18,
-    center: new google.maps.LatLng(47.210951,39.632921),
-    mapTypeId: google.maps.MapTypeId.SATELLITE
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'),
-                                mapOptions);
-
-  var image = 'images/marker.png';
-  var myLatLng = new google.maps.LatLng(47.210951,39.632921);
-  var beachMarker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      icon: image
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
+    
 
 
 </head>
@@ -437,12 +415,18 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		<div id="contacts" class="grid_12 contacts">
 			<h2>КОНТАКТЫ</h2>
 	    </div>
+	    <div class="clear"></div>
 	</section>
-	
+
+<section class="map-containter">
+	<div class="contact_container">
+		<span class="address">СТАЧКИ 213</span>
+		<span class="mobile">тел : +7 (863) 305 16 05</span>
+	</div>
 	<div id="map-canvas">
 		
 	</div>
-
+</section>	
 
 <script src="js/jquery.js"></script>	
 <script src="js/fotorama.js"></script>
@@ -477,7 +461,29 @@ return false;
 });
 	
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+function initialize() {
+  var mapOptions = {
+    zoom: 18,
+    center: new google.maps.LatLng(47.210951,39.632921),
+    mapTypeId: google.maps.MapTypeId.SATELLITE
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                mapOptions);
 
+  var image = 'images/marker.png';
+  var myLatLng = new google.maps.LatLng(47.210951,39.632921);
+  var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: image
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
 <script src="js/navscript.js"></script>
 
 
