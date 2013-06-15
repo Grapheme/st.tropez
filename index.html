@@ -19,11 +19,59 @@
 		<link rel="stylesheet" type="text/css" href="css/futura.css" charset="utf-8">
 
 		<script src="js/jquery-1.9.1.min.js"></script>
-		<script src="js/jquery.lettering-0.6.1.min.js"></script>
+		<script src="js/navscript.js"></script>
 		<script src="js/jquery.scrollorama.js"></script>
 
 	</head>
 	<body>
+		<div class="container_12 navContainter">
+			<div class="grid_2">
+
+				<nav class="nav-dark">
+					<h1 class="logo"></h1>
+					<ul class="navigationLinksList">
+						<li class="navigationLink">
+							<a class="navLink-1" href="#top">ГЛАВНАЯ</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-2" href="#news">НОВОСТИ</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-3" href="#restaurant">РЕСТОРАН</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-4" href="#pool">БАССЕЙН</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-5" href="#contacts">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="nav-light">
+					<h1 class="logo"></h1>
+					<ul class="navigationLinksList">
+						<li class="navigationLink">
+							<a class="navLink-1" href="#top">ГЛАВНАЯ</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-2" href="#news">НОВОСТИ</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-3" href="#restaurant">РЕСТОРАН</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-4" href="#pool">БАССЕЙН</a>
+						</li>
+						<li class="navigationLink">
+							<a class="navLink-5" href="#contacts">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+			<div class="clear"></div>
+		</div>
 		<div class="scrollblock" id="examples-parallax">
 			<div class="parallax-block" id="parallax1">
 				<section class="fotorama-container-1" data-menu="light">
@@ -36,11 +84,11 @@
 						<a href="images/fotorama/03.jpg"><img src="i/thumbs/03.jpg"></a>
 						<a href="images/fotorama/04.jpg"><img src="i/thumbs/04.jpg"></a>
 						<a href="images/fotorama/05.jpg"><img src="i/thumbs/05.jpg"></a>
-					</div>
+					</div>				
 				</section>
 			</div>
-			<div class="parallax-block" id="parallax2">
-				<section id="news" class="container_12 newsAndEvents-2" data-menu="dark">
+			<div class="parallax-block" id="parallax2" data-menu="dark">
+				<section id="news" class="container_12 newsAndEvents-2" >
 					<div class="grid_12">
 						<h2>НОВОСТИ&#38;СОБЫТИЯ</h2>
 					</div>
@@ -65,15 +113,14 @@
 									<img src="images/nearest_events/parfenov.jpg" class="float-left newImage" alt="" />
 									<div class="newContent">
 										<h3>DJ VLADIMIR PARFENOV</h3>
-										<ul class="newDescription">
-
+										
 											<p class="newDescription">
 												Треки Владимира Парфенова звучат на радио DFM, ХитFM, Русское радио,
 												Монте Карло, Максимум и др. станциях России, также треки в ротации
 												на знаменитом во всем мире Global Ibiza Radio.
 												Каждую субботу лета с 16.00 до 20.00
 											</p>
-										</ul>
+										
 										<ul class="tagLinks">
 											<li>
 												DJ Владимир Парфенов
@@ -105,12 +152,14 @@
 									<img src="images/nearest_events/minkina.jpg" class="float-left newImage" alt="" />
 									<div class="newContent">
 										<h3>Концерт Анны Минкиной и HUMANE ORCHESTRA</span></h3>
+										
 										<p class="newDescription">
 											Долгожданный концерт Анны Минкиной и HUMANE ORCHESTRA в ресторане St. Tropez.
 											Теплый пятничный вечер в приятной компании.
 											Резерв столов по телефону 305-16-05
 											Стоимость билета — 1000 руб/чел.
 										</p>
+										
 										<ul class="tagLinks">
 											<li>
 												Анна Минкина
@@ -422,7 +471,7 @@
 
 						</div>-->
 					</div>
-					<div class="grid_2">
+					<div class="grid_2" data-menu="footer">
 						<div class="water_temperature">
 							<p>
 								<span class="temperatureSpan">t 29 &deg;</span>
@@ -504,38 +553,38 @@
 				});
 				// animate the parallaxing
 				scrollorama.animate('#parallax2', {
-					delay : 200,
-					duration : 4000,
+					delay : 393,
+					duration : 5200,
 					property : 'top',
-					start : 735,
+					start : 765,
 					end : -935
 				}).animate('#parallax3', {
-					delay : 380,
+					delay : 435,
 					duration : 3800,
 					property : 'top',
-					start : 1700,
+					start : 1800,
 					end : -1700
 				}).animate('#parallax4', {
-					delay : 530,
+					delay : 710,
 					duration : 3700,
 					property : 'top',
 					start : 2605,
 					end : -2605
 				}).animate('#parallax5', {
-					delay : 680,
-					duration : 3600,
+					delay : 810,
+					duration : 3800,
 					property : 'top',
 					start : 3840,
 					end : -3840
 				}).animate('#parallax6', {
-					delay : 830,
-					duration : 3500,
+					delay : 930,
+					duration : 4000,
 					property : 'top',
 					start : 4770,
 					end : -4770
 				}).animate('#parallax7', {
-					delay : 980,
-					duration : 3600,
+					delay : 1150,
+					duration : 3850,
 					property : 'top',
 					start : 5710,
 					end : -5710
@@ -565,5 +614,6 @@
 			google.maps.event.addDomListener(window, 'load', initialize);
 
 		</script>
+		
 	</body>
 </html>

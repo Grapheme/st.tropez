@@ -161,7 +161,7 @@ section {
 .newDescription li,
 .menuItemSpecialProducts li, 
 .poolMenuItemSpecialProducts li,
-.newDescription p,
+.newDescription,
 .menuItemSpecialProducts p, 
 .poolMenuItemSpecialProducts p{
   line-height: 1.4;
