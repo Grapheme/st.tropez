@@ -134,7 +134,9 @@ body {
 }
 /*.newsList .newContent ul li,*/
 .menuItemSpecialProducts li,
-.poolMenuItemSpecialProducts li{
+.poolMenuItemSpecialProducts li,
+.menuItemSpecialProducts p,
+.poolMenuItemSpecialProducts p{
   font-size: 1em; /* 18px from 16px*/
   color: #535353;
 }
@@ -142,7 +144,7 @@ body {
   color: #FFF;	
 }
 .newsListItem {
-  height: 245px;	
+  height: 330px;	
   margin: .875em 0 1.475em 0;	
 	
   border-top: 2px solid #e1e677;
@@ -150,7 +152,10 @@ body {
 }
 .newDescription li,
 .menuItemSpecialProducts li, 
-.poolMenuItemSpecialProducts li{
+.poolMenuItemSpecialProducts li,
+.newDescription p,
+.menuItemSpecialProducts p, 
+.poolMenuItemSpecialProducts p{
   line-height: 1.4;
 }
 .newsListItem .newDescription>li:before,
@@ -246,7 +251,7 @@ body {
   top: 0;	
 }
 .lastNewsList .lastNewsListItem{   
-  height: 245px;
+  height: 330px;
   margin: 0.875em 0 1.475em;
   
   border-top: 2px solid #bcdfef; 
