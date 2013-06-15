@@ -4,7 +4,9 @@ body {
   
   font-family:'Conv_FuturaNewBook',Sans-Serif;
 }
-
+section {
+	height: 800px;
+}
 /*==========================================================================
   Nav styles
  =========================================================================== */
@@ -66,8 +68,10 @@ body {
   height: 565px; 
 }
 .fotorama-container-1,
-.fotorama-container-2  {
+.fotorama-container-2,
+.fotorama-container-3 {
   position: relative;	
+  height: 100%;
 }
 .fotorama-container-1-header,
 .fotorama-container-2-header{
@@ -107,6 +111,10 @@ body {
   float: left;	
   font-family: 'Conv_MetaNormalC', sans-serif;  
 }  		
+.newsTop,
+.lastNewsTop {
+  height: 15px;	
+}
 .newsTop p,
 .lastNewsTop p {
   float: left;	
@@ -243,12 +251,12 @@ body {
 }	
 
 .lastNewsTop {
-  position: relative	
+  position: relative;	
 }
 .lastNewsTop .showAllLink {
-  position: relative;
-  right: 0px;
-  top: 0;	
+  position: absolute;
+  right: -15px;
+  top: -1px;
 }
 .lastNewsList .lastNewsListItem{   
   height: 330px;
@@ -419,11 +427,12 @@ body {
    Map (7th block styles)
   ========================================================================== */
 #map-canvas {
-  width: 100%;   
-  height: 529px;
+  width: 100%;  
+  height: 735px;
 }
 .map-containter {
 	position: relative;
+	height: 100%;
 	color: #FFF;
 }
 .contact_container {

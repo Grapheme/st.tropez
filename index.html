@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>scrollorama</title>
 
-		<title></title>
-
+		<link href='http://fonts.googleapis.com/css?family=Bowlby+One+SC' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css">
+		<link rel="stylesheet" href="css/paralaxx-style.css" type="text/css">
+		<link rel="author" href="https://plus.google.com/107766061849006545830"/>
 		<link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" media="all" href="css/960.css">
 		<link rel="stylesheet" type="text/css" media="all" href="css/fotorama.css">
@@ -14,484 +18,446 @@
 		<link rel="stylesheet" type="text/css" href="css/helvetica-thin.css" charset="utf-8" >
 		<link rel="stylesheet" type="text/css" href="css/futura.css" charset="utf-8">
 
-		<link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.lettering-0.6.1.min.js"></script>
+		<script src="js/jquery.scrollorama.js"></script>
 
 	</head>
-	<body id="top">
-		<div class="container_12 navContainter">
-			<div class="grid_2">
-
-				<nav class="nav-dark">
-					<h1 class="logo"></h1>
-					<ul class="navigationLinksList">
-						<li class="navigationLink">
-							<a class="navLink-1" href="#top">ГЛАВНАЯ</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-2" href="#news">НОВОСТИ</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-3" href="#restaurant">РЕСТОРАН</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-4" href="#pool">БАССЕЙН</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-5" href="#contacts">КОНТАКТЫ</a>
-						</li>
-					</ul>
-				</nav>
-
-				<nav class="nav-light">
-					<h1 class="logo"></h1>
-					<ul class="navigationLinksList">
-						<li class="navigationLink">
-							<a class="navLink-1" href="#top">ГЛАВНАЯ</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-2" href="#news">НОВОСТИ</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-3" href="#restaurant">РЕСТОРАН</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-4" href="#pool">БАССЕЙН</a>
-						</li>
-						<li class="navigationLink">
-							<a class="navLink-5" href="#contacts">КОНТАКТЫ</a>
-						</li>
-					</ul>
-				</nav>
-
+	<body>
+		<div class="scrollblock" id="examples-parallax">
+			<div class="parallax-block" id="parallax1">
+				<section class="fotorama-container-1" data-menu="light">
+					<h2 class="fotorama-container-1-header"><span class="fotorama-header-style-span">УНИКАЛЬНЫЙ БАССЕЙН С МОРСКОЙ ВОДОЙ&nbsp;
+						<br>
+						&nbsp; В РОСТОВЕ-НА-ДОНУ</span></h2>
+					<div id="fotorama" data-menu="light" class="fotorama fotorama_dots-overlay fotorama_circles fotorama_horizontal fotorama_csstransitions" data-loop="true" data-width="100%"  data-height="735px" data-nav="dots" >
+						<a href="images/fotorama/01.jpg"><img src="i/thumbs/01.jpg"></a>
+						<a href="images/fotorama/02.jpg"><img src="i/thumbs/02.jpg"></a>
+						<a href="images/fotorama/03.jpg"><img src="i/thumbs/03.jpg"></a>
+						<a href="images/fotorama/04.jpg"><img src="i/thumbs/04.jpg"></a>
+						<a href="images/fotorama/05.jpg"><img src="i/thumbs/05.jpg"></a>
+					</div>
+				</section>
 			</div>
-			<div class="clear"></div>
+			<div class="parallax-block" id="parallax2">
+				<section id="news" class="container_12 newsAndEvents-2" data-menu="dark">
+					<div class="grid_12">
+						<h2>НОВОСТИ&#38;СОБЫТИЯ</h2>
+					</div>
+					<div class="clear"></div>
+					<div class="grid_7 prefix_2">
+						<div class="newsTop">
+							<p>
+								Ближайшие события
+							</p>
+							<a class="showAllLink" href="#">ПОКАЗАТЬ ВСЕ</a>
+							<div class="clear"></div>
+						</div>
+						<ul class="newsList">
+							<li class="newsListItem">
+								<div class="newHeader">
+									<h4>DJ VLADIMIR PARFENOV</h4>
+									<p>
+										15 <span class="bold_text">июня</span> 2013
+									</p>
+								</div>
+								<div class="newBody">
+									<img src="images/nearest_events/parfenov.jpg" class="float-left newImage" alt="" />
+									<div class="newContent">
+										<h3>DJ VLADIMIR PARFENOV</h3>
+										<ul class="newDescription">
+
+											<p class="newDescription">
+												Треки Владимира Парфенова звучат на радио DFM, ХитFM, Русское радио,
+												Монте Карло, Максимум и др. станциях России, также треки в ротации
+												на знаменитом во всем мире Global Ibiza Radio.
+												Каждую субботу лета с 16.00 до 20.00
+											</p>
+										</ul>
+										<ul class="tagLinks">
+											<li>
+												DJ Владимир Парфенов
+											</li>
+											&#047;
+											<li>
+												Ibiza
+											</li>
+											&#047;
+											<li>
+												St. Tropez
+											</li>
+										</ul>
+										<!--<div class="moreLink">
+										<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
+										</div>-->
+									</div>
+								</div>
+								<div class="clear"></div>
+							</li>
+							<li class="newsListItem">
+								<div class="newHeader">
+									<h4>КОНЦЕРТ</h4>
+									<p>
+										14 <span class="bold_text">июня</span> 2013
+									</p>
+								</div>
+								<div class="newBody">
+									<img src="images/nearest_events/minkina.jpg" class="float-left newImage" alt="" />
+									<div class="newContent">
+										<h3>Концерт Анны Минкиной и HUMANE ORCHESTRA</span></h3>
+										<p class="newDescription">
+											Долгожданный концерт Анны Минкиной и HUMANE ORCHESTRA в ресторане St. Tropez.
+											Теплый пятничный вечер в приятной компании.
+											Резерв столов по телефону 305-16-05
+											Стоимость билета — 1000 руб/чел.
+										</p>
+										<ul class="tagLinks">
+											<li>
+												Анна Минкина
+											</li>
+											&#047;
+											<li>
+												Humane Orchestra
+											</li>
+											&#047;
+											<li>
+												St. Tropez
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<div class="lastNewsTop">
+							<p>
+								Последние новости
+							</p>
+							<a class="showAllLink" href="#">ПОКАЗАТЬ ВСЕ</a>
+							<div class="clear"></div>
+						</div>
+
+						<ul class="lastNewsList">
+							<li class="lastNewsListItem">
+								<div class="newItemHeader">
+									<p class="newItemDate">
+										25 <span class="bold_text">мая</span> 2013
+									</p>
+									<!-- date -->
+								</div>
+								<div class="newsItem">
+
+									<h3>Dynamic Showcase Pool Session</h3>
+									<p class="newItemText">
+										Showcase Pool Session - уникальное мероприятие европейского уровня,
+										которое объединит философию клубного дневного отдыха у бассейна с музыкальной
+										идеологией приглашенного мирового суперлейбла и его знаменитых артистов.
+
+									</p>
+									<!--<a href="#">Подробный фотоотчет</a>-->
+									<div class="clear"></div>
+								</div>
+								<div></div>
+								<!-- Разделитель-->
+							</li>
+							<li class="lastNewsListItem">
+								<div class="newItemHeader">
+									<p class="newItemDate">
+										9 <span class="bold_text">мая</span> 2013
+									</p>
+									<!-- date -->
+								</div>
+								<div class="newsItem">
+
+									<h3>Зажигаем с группой «Мохито»</h3>
+									<p class="newItemText">
+										В репертуаре группы «Мохито» только самые известные хиты
+										80-90-х годов, музыка российских исполнителей и современные
+										зарубежные композиции в оригинальных танцевальных обработках.
+										Мохито — это те, кто может исполнить любимые многими, совершенно по-новому.
+									</p>
+									<!--<a href="#">Подробный фотоотчет</a>-->
+									<div class="clear"></div>
+								</div>
+								<div></div>
+								<!-- Разделитель-->
+							</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</section>
+			</div>
+			<div class="parallax-block" id="parallax3">
+				<section class="fotorama-container-2" data-menu="light">
+					<h2 class="fotorama-container-2-header"><span class="fotorama-header-style-span">РЕСТОРАН С АКВАРИУМОМ&nbsp;
+						<br>
+						&nbsp;САМЫЕ СВЕЖИЕ ПРОДУКТЫ В ГОРОДЕ</span></h2>
+					<div id="fotorama2" class="fotorama fotorama_dots-overlay fotorama_circles"  data-loop="true" data-width="100%" data-height="735px" data-nav="dots">
+						<a href="images/fotorama2/01.jpg"><img src="i/thumbs/01.jpg"></a>
+						<a href="images/fotorama2/02.jpg"><img src="i/thumbs/02.jpg"></a>
+						<a href="images/fotorama2/03.jpg"><img src="i/thumbs/03.jpg"></a>
+						<a href="images/fotorama2/04.jpg"><img src="i/thumbs/04.jpg"></a>
+						<a href="images/fotorama2/05.jpg"><img src="i/thumbs/05.jpg"></a>
+					</div>
+				</section>
+			</div>
+			<div class="parallax-block" id="parallax4">
+				<section id="restaurant" class="container_12 restaurantMenu-4" data-menu="dark">
+					<div class="grid_12">
+						<h2>РЕСТОРАН</h2>
+					</div>
+					<div class="clear"></div>
+					<div class="grid_7 prefix_2">
+						<ul class="restaurantMenu">
+							<li class="img-block">
+								<div class="restaurantMenuListItem">
+									<img src="images/restaurants/mid.jpg" alt="" class="img-block float-left menuImage"/>
+									<div class="menuItem">
+										<h3 class="menuItemHeader">РЕСТОРАНЫ</h3>
+										<ul class="menuItemSpecialProducts">
+											<li>
+												Всегда свежие морепродукты
+											</li>
+											<li>
+												Французское вино
+											</li>
+										</ul>
+										<ul class="tagLinks">
+											<li>
+												Аквариум
+											</li>
+											&#047;
+											<li>
+												Ресторан
+											</li>
+											&#047;
+											<li>
+												Устрицы
+											</li>
+										</ul>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</li>
+							<li class="img-block">
+								<div class="restaurantMenuListItem">
+									<img src="images/restaurants/bottle.jpg" alt="" class="img-block float-left menuImage"/>
+									<div class="menuItem">
+										<h3 class="menuItemHeader">СОМЕЛЬЕ ПОДОБРАЛ ЛУЧШЕЕ ДЛЯ ВАС</h3>
+										<ul class="menuItemSpecialProducts">
+											<p>
+												Готовим на гриле
+											</p>
+										</ul>
+										<ul class="tagLinks">
+											<li>
+												Аквариум
+											</li>
+											&#047;
+											<li>
+												Ресторан
+											</li>
+											&#047;
+											<li>
+												Устрицы
+											</li>
+										</ul>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<ul>
+							<li>
+								<a href="#" class="right-links">
+								<div>
+									<img src="images/menuLinks/salat.png" alt="" class="img-block menuImage" />
+									<div class="menuLinkItem">
+										<span class="span-in-link">МЕНЮ</span>
+									</div>
+								</div> </a>
+							</li>
+							<li>
+								<a href="#" class="right-links">
+								<div>
+									<img src="images/menuLinks/bottle.png" alt="" class="img-block menuImage" />
+									<div class="menuLinkItem">
+										<span class="span-in-link">РЕСТОРАН&#38;БАР</span>
+									</div>
+								</div> </a>
+							</li>
+							<li>
+								<a href="#" class="right-links">
+								<div>
+									<img src="images/menuLinks/crab.png" alt="" class="img-block menuImage" />
+									<div class="menuLinkItem">
+										<span class="span-in-link">АКВАРИУМ</span>
+									</div>
+								</div> </a>
+							</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</section>
+			</div>
+			<div class="parallax-block" id="parallax5">
+				<section id="fotorama3" class="fotorama fotorama_dots-overlay fotorama_circles fotorama-container-3"  data-loop="true" data-width="100%" data-height="735px" data-nav="dots" data-menu="light">
+					<a href="images/fotorama3/01.jpg"><img src="i/thumbs/01.jpg"></a>
+					<a href="images/fotorama3/02.jpg"><img src="i/thumbs/02.jpg"></a>
+					<a href="images/fotorama3/03.jpg"><img src="i/thumbs/03.jpg"></a>
+					<a href="images/fotorama3/04.jpg"><img src="i/thumbs/04.jpg"></a>
+					<a href="images/fotorama3/05.jpg"><img src="i/thumbs/05.jpg"></a>
+				</section>
+			</div>
+			<div class="parallax-block" id="parallax6">
+				<section id="pool" class="container_12 poolMenu-6" data-menu="dark">
+					<div class="grid_12">
+						<h2>БАССЕЙН</h2>
+					</div>
+					<div class="clear"></div>
+					<div class="grid_7 prefix_2 poolMenuContent">
+						<ul class="poolMenuList">
+							<li class="img-block poolMenuListItem">
+								<div>
+									<img src="images/menuLinks/ride.jpg" alt="" class="img-block float-left menuImage"/>
+									<div class="menuItem">
+										<h3 class="poolMenuItemHeader">АДСКАЯ ГОРКА</h3>
+										<ul class="poolMenuItemSpecialProducts">
+											<p>
+												АБСОЛЮТНО СУМАСШЕДШАЯ!
+											</p>
+										</ul>
+										<ul class="tagLinks">
+											<li>
+												Аквариум
+											</li>
+											&#047;
+											<li>
+												Развлечения
+											</li>
+											&#047;
+											<li>
+												Бассейн
+											</li>
+										</ul>
+										<!--<div class="moreLink">
+										<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
+										</div>-->
+									</div>
+									<div class="clear"></div>
+								</div>
+							</li>
+							<li class="img-block poolMenuListItem">
+								<div>
+									<img src="images/pool/digest.jpg" alt="" class="img-block float-left menuImage"/>
+									<div class="menuItem">
+										<h3 class="poolMenuItemHeader">POOL-BAR ДАЙДЖЕСТ</h3>
+										<ul class="poolMenuItemSpecialProducts">
+											<p>
+												Открыт для красивых и загорелых
+											</p>
+										</ul>
+										<ul class="tagLinks">
+											<li>
+												Бассейн
+											</li>
+											&#047;
+											<li>
+												Ресторан
+											</li>
+											&#047;
+											<li>
+												POOL-BAR
+											</li>
+										</ul>
+										<!--<div class="moreLink">
+										<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
+										</div>-->
+									</div>
+									<div class="clear"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="grid_3">
+						<ul>
+							<li>
+								<a href="#" class="right-links">
+								<div>
+									<img src="images/menuLinks/ball.png" alt="" class="img-block menuImage" />
+									<div class="menuLinkItem">
+										<span class="span-in-link">ДЕТЯМ</span>
+									</div>
+								</div> </a>
+							</li>
+							<li>
+								<a href="#" class="right-links">
+								<div>
+									<img src="images/menuLinks/cocktail.png" alt="" class="img-block menuImage" />
+									<div class="menuLinkItem">
+										<span class="span-in-link">БАР</span>
+									</div>
+								</div> </a>
+							</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+
+					<div class="grid_2 prefix_4">
+						<div class="air_temperature">
+							<p>
+								<span class="temperatureSpan">t 29 &deg;</span>
+								<br>
+								воды
+							</p>
+						</div>
+					</div>
+					<div class="grid_1">
+						<!--<div class="diff">
+
+						</div>-->
+					</div>
+					<div class="grid_2">
+						<div class="water_temperature">
+							<p>
+								<span class="temperatureSpan">t 29 &deg;</span>
+								<br>
+								воздуха
+							</p>
+						</div>
+					</div>
+
+					<!--<div class="grid_8" data-menu="footer">
+					<span class="shtil">
+					ШТИЛЬ
+					</span>
+					</div> 		-->
+					<div class="clear"></div>
+
+					<div id="contacts" class="grid_12 contacts">
+						<h2>КОНТАКТЫ</h2>
+					</div>
+					<div class="clear"></div>
+				</section>
+			</div>
+			<div style="height: 900px;" class="parallax-block" id="parallax7">
+				<section class="map-containter">
+					<div class="contact_container">
+						<span class="address">СТАЧКИ 213</span>
+						<span class="mobile">тел : +7 (863) 305 16 05</span>
+					</div>
+					<div id="map-canvas">
+
+					</div>
+				</section>
+			</div>
 		</div>
-
-		<section class="fotorama-container-1" data-menu="light">
-			<h2 class="fotorama-container-1-header"><span class="fotorama-header-style-span">УНИКАЛЬНЫЙ БАССЕЙН С МОРСКОЙ ВОДОЙ&nbsp;
-				<br>
-				&nbsp; В РОСТОВЕ-НА-ДОНУ</span></h2>
-			<div id="fotorama" data-menu="light" class="fotorama fotorama_dots-overlay fotorama_circles fotorama_horizontal fotorama_csstransitions" data-loop="true" data-width="100%" data-height="535px" data-nav="dots" >
-				<a href="images/fotorama/01.jpg"><img src="i/thumbs/01.jpg"></a>
-				<a href="images/fotorama/02.jpg"><img src="i/thumbs/02.jpg"></a>
-				<a href="images/fotorama/03.jpg"><img src="i/thumbs/03.jpg"></a>
-				<a href="images/fotorama/04.jpg"><img src="i/thumbs/04.jpg"></a>
-				<a href="images/fotorama/05.jpg"><img src="i/thumbs/05.jpg"></a>
-			</div>
-		</section>
-		<section id="news" class="container_12 newsAndEvents-2" data-menu="dark">
-			<div class="grid_12">
-				<h2>НОВОСТИ&#38;СОБЫТИЯ</h2>
-			</div>
-			<div class="clear"></div>
-			<div class="grid_7 prefix_2">
-				<div class="newsTop">
-					<p>
-						Ближайшие события
-					</p>
-					<a class="showAllLink" href="#">ПОКАЗАТЬ ВСЕ</a>
-					<div class="clear"></div>
-				</div>
-				<ul class="newsList">
-					<li class="newsListItem">
-						<div class="newHeader">
-							<h4>DJ VLADIMIR PARFENOV</h4>
-							<p>
-								15 <span class="bold_text">июня</span> 2013
-							</p>
-						</div>
-						<div class="newBody">
-							<img src="images/nearest_events/parfenov.jpg" class="float-left newImage" alt="" />
-							<div class="newContent">
-								<h3>DJ VLADIMIR PARFENOV</h3>
-								<ul class="newDescription">
-
-									<p class="newDescription">
-										Треки Владимира Парфенова звучат на радио DFM, ХитFM, Русское радио,
-										Монте Карло, Максимум и др. станциях России, также треки в ротации
-										на знаменитом во всем мире Global Ibiza Radio.
-										Каждую субботу лета с 16.00 до 20.00
-									</p>
-								</ul>
-								<ul class="tagLinks">
-									<li>
-										DJ Владимир Парфенов
-									</li>
-									&#047;
-									<li>
-										Ibiza
-									</li>
-									&#047;
-									<li>
-										St. Tropez
-									</li>
-								</ul>
-								<!--<div class="moreLink">
-								<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
-								</div>-->
-							</div>
-						</div>
-						<div class="clear"></div>
-					</li>
-					<li class="newsListItem">
-						<div class="newHeader">
-							<h4>КОНЦЕРТ</h4>
-							<p>
-								14 <span class="bold_text">июня</span> 2013
-							</p>
-						</div>
-						<div class="newBody">
-							<img src="images/nearest_events/minkina.jpg" class="float-left newImage" alt="" />
-							<div class="newContent">
-								<h3>Концерт Анны Минкиной и HUMANE ORCHESTRA</span></h3>
-								<p class="newDescription">
-									Долгожданный концерт Анны Минкиной и HUMANE ORCHESTRA в ресторане St. Tropez.
-									Теплый пятничный вечер в приятной компании.
-									Резерв столов по телефону 305-16-05
-									Стоимость билета — 1000 руб/чел.
-								</p>
-								<ul class="tagLinks">
-									<li>
-										Анна Минкина
-									</li>
-									&#047;
-									<li>
-										Humane Orchestra
-									</li>
-									&#047;
-									<li>
-										St. Tropez
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="clear"></div>
-					</li>
-					<div class="clear"></div>
-				</ul>
-			</div>
-			<div class="grid_3">
-				<div class="lastNewsTop">
-					<p>
-						Последние новости
-					</p>
-					<a class="showAllLink" href="#">ПОКАЗАТЬ ВСЕ</a>
-					<div class="clear"></div>
-				</div>
-
-				<ul class="lastNewsList">
-					<li class="lastNewsListItem">
-						<div class="newItemHeader">
-							<p class="newItemDate">
-								25 <span class="bold_text">мая</span> 2013
-							</p>
-							<!-- date -->
-						</div>
-						<div class="newsItem">
-
-							<h3>Dynamic Showcase Pool Session</h3>
-							<p class="newItemText">
-								Showcase Pool Session - уникальное мероприятие европейского уровня,
-								которое объединит философию клубного дневного отдыха у бассейна с музыкальной
-								идеологией приглашенного мирового суперлейбла и его знаменитых артистов.
-								Вечеринка прошла на территории шикарного комплекса St. Tropez (Сан Тропе) в черте города Ростова.
-							</p>
-							<!--<a href="#">Подробный фотоотчет</a>-->
-							<div class="clear"></div>
-						</div>
-						<div></div>
-						<!-- Разделитель-->
-					</li>
-					<li class="lastNewsListItem">
-						<div class="newItemHeader">
-							<p class="newItemDate">
-								9 <span class="bold_text">мая</span> 2013
-							</p>
-							<!-- date -->
-						</div>
-						<div class="newsItem">
-
-							<h3>Зажигаем с группой «Мохито»</h3>
-							<p class="newItemText">
-								В репертуаре группы «Мохито» только самые известные хиты
-								80-90-х годов, музыка российских исполнителей и современные
-								зарубежные композиции в оригинальных танцевальных обработках.
-								Мохито — это те, кто может исполнить любимые многими, совершенно по-новому.
-							</p>
-							<!--<a href="#">Подробный фотоотчет</a>-->
-							<div class="clear"></div>
-						</div>
-						<div></div>
-						<!-- Разделитель-->
-					</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-		<section class="fotorama-container-2" data-menu="light">
-			<h2 class="fotorama-container-2-header"><span class="fotorama-header-style-span">РЕСТОРАН С АКВАРИУМОМ&nbsp;
-				<br>
-				&nbsp;САМЫЕ СВЕЖИЕ ПРОДУКТЫ В ГОРОДЕ</span></h2>
-			<div id="fotorama2" class="fotorama fotorama_dots-overlay fotorama_circles"  data-loop="true" data-width="100%" data-height="535px" data-nav="dots">
-				<a href="images/fotorama2/01.jpg"><img src="i/thumbs/01.jpg"></a>
-				<a href="images/fotorama2/02.jpg"><img src="i/thumbs/02.jpg"></a>
-				<a href="images/fotorama2/03.jpg"><img src="i/thumbs/03.jpg"></a>
-				<a href="images/fotorama2/04.jpg"><img src="i/thumbs/04.jpg"></a>
-				<a href="images/fotorama2/05.jpg"><img src="i/thumbs/05.jpg"></a>
-			</div>
-		</section>
-		<section id="restaurant" class="container_12 restaurantMenu-4" data-menu="dark">
-			<div class="grid_12">
-				<h2>РЕСТОРАН</h2>
-			</div>
-			<div class="clear"></div>
-			<div class="grid_7 prefix_2">
-				<ul class="restaurantMenu">
-					<li class="img-block">
-						<div class="restaurantMenuListItem">
-							<img src="images/restaurants/mid.jpg" alt="" class="img-block float-left menuImage"/>
-							<div class="menuItem">
-								<h3 class="menuItemHeader">РЕСТОРАНЫ</h3>
-								<ul class="menuItemSpecialProducts">
-									<li>
-										Всегда свежие морепродукты
-									</li>
-									<li>
-										Французское вино
-									</li>
-								</ul>
-								<ul class="tagLinks">
-									<li>
-										Аквариум
-									</li>
-									&#047;
-									<li>
-										Ресторан
-									</li>
-									&#047;
-									<li>
-										Устрицы
-									</li>
-								</ul>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</li>
-					<li class="img-block">
-						<div class="restaurantMenuListItem">
-							<img src="images/restaurants/bottle.jpg" alt="" class="img-block float-left menuImage"/>
-							<div class="menuItem">
-								<h3 class="menuItemHeader">СОМЕЛЬЕ ПОДОБРАЛ ЛУЧШЕЕ ДЛЯ ВАС</h3>
-								<ul class="menuItemSpecialProducts">
-									<p>
-										Готовим на гриле
-									</p>
-								</ul>
-								<ul class="tagLinks">
-									<li>
-										Аквариум
-									</li>
-									&#047;
-									<li>
-										Ресторан
-									</li>
-									&#047;
-									<li>
-										Устрицы
-									</li>
-								</ul>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="grid_3">
-				<ul>
-					<li>
-						<a href="#" class="right-links">
-						<div>
-							<img src="images/menuLinks/salat.png" alt="" class="img-block menuImage" />
-							<div class="menuLinkItem">
-								<span class="span-in-link">МЕНЮ</span>
-							</div>
-						</div> </a>
-					</li>
-					<li>
-						<a href="#" class="right-links">
-						<div>
-							<img src="images/menuLinks/bottle.png" alt="" class="img-block menuImage" />
-							<div class="menuLinkItem">
-								<span class="span-in-link">РЕСТОРАН&#38;БАР</span>
-							</div>
-						</div> </a>
-					</li>
-					<li>
-						<a href="#" class="right-links">
-						<div>
-							<img src="images/menuLinks/crab.png" alt="" class="img-block menuImage" />
-							<div class="menuLinkItem">
-								<span class="span-in-link">АКВАРИУМ</span>
-							</div>
-						</div> </a>
-					</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-		<section id="fotorama3" class="fotorama fotorama_dots-overlay fotorama_circles"  data-loop="true" data-width="100%" data-height="535px" data-nav="dots" data-menu="light">
-			<a href="images/fotorama3/01.jpg"><img src="i/thumbs/01.jpg"></a>
-			<a href="images/fotorama3/02.jpg"><img src="i/thumbs/02.jpg"></a>
-			<a href="images/fotorama3/03.jpg"><img src="i/thumbs/03.jpg"></a>
-			<a href="images/fotorama3/04.jpg"><img src="i/thumbs/04.jpg"></a>
-			<a href="images/fotorama3/05.jpg"><img src="i/thumbs/05.jpg"></a>
-		</section>
-
-		<section id="pool" class="container_12 poolMenu-6" data-menu="dark">
-			<div class="grid_12">
-				<h2>БАССЕЙН</h2>
-			</div>
-			<div class="clear"></div>
-			<div class="grid_7 prefix_2 poolMenuContent">
-				<ul class="poolMenuList">
-					<li class="img-block poolMenuListItem">
-						<div>
-							<img src="images/menuLinks/ride.jpg" alt="" class="img-block float-left menuImage"/>
-							<div class="menuItem">
-								<h3 class="poolMenuItemHeader">АДСКАЯ ГОРКА</h3>
-								<ul class="poolMenuItemSpecialProducts">
-									<p>
-										АБСОЛЮТНО СУМАСШЕДШАЯ!
-									</p>
-								</ul>
-								<ul class="tagLinks">
-									<li>
-										Аквариум
-									</li>
-									&#047;
-									<li>
-										Развлечения
-									</li>
-									&#047;
-									<li>
-										Бассейн
-									</li>
-								</ul>
-								<!--<div class="moreLink">
-								<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
-								</div>-->
-							</div>
-							<div class="clear"></div>
-						</div>
-					</li>
-					<li class="img-block poolMenuListItem">
-						<div>
-							<img src="images/pool/digest.jpg" alt="" class="img-block float-left menuImage"/>
-							<div class="menuItem">
-								<h3 class="poolMenuItemHeader">POOL-BAR ДАЙДЖЕСТ</h3>
-								<ul class="poolMenuItemSpecialProducts">
-									<p>
-										Открыт для красивых и загорелых
-									</p>
-								</ul>
-								<ul class="tagLinks">
-									<li>
-										Бассейн
-									</li>
-									&#047;
-									<li>
-										Ресторан
-									</li>
-									&#047;
-									<li>
-										POOL-BAR
-									</li>
-								</ul>
-								<!--<div class="moreLink">
-								<a href="#" title="подробная информация">подробно<span class="moreLinkSpan">&#062;</span></a>
-								</div>-->
-							</div>
-							<div class="clear"></div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="grid_3">
-				<ul>
-					<li>
-						<a href="#" class="right-links">
-						<div>
-							<img src="images/menuLinks/ball.png" alt="" class="img-block menuImage" />
-							<div class="menuLinkItem">
-								<span class="span-in-link">ДЕТЯМ</span>
-							</div>
-						</div> </a>
-					</li>
-					<li>
-						<a href="#" class="right-links">
-						<div>
-							<img src="images/menuLinks/cocktail.png" alt="" class="img-block menuImage" />
-							<div class="menuLinkItem">
-								<span class="span-in-link">БАР</span>
-							</div>
-						</div> </a>
-					</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-
-			<div class="grid_2 prefix_4">
-				<div class="air_temperature">
-					<p>
-						<span class="temperatureSpan">t 29 &deg;</span>
-						<br>
-						воды
-					</p>
-				</div>
-			</div>
-			<div class="grid_1">
-				<!--<div class="diff">
-
-				</div>-->
-			</div>
-			<div class="grid_2">
-				<div class="water_temperature">
-					<p>
-						<span class="temperatureSpan">t 29 &deg;</span>
-						<br>
-						воздуха
-					</p>
-				</div>
-			</div>
-
-			<!--<div class="grid_8" data-menu="footer">
-			<span class="shtil">
-			ШТИЛЬ
-			</span>
-			</div> 		-->
-			<div class="clear"></div>
-
-			<div id="contacts" class="grid_12 contacts">
-				<h2>КОНТАКТЫ</h2>
-			</div>
-			<div class="clear"></div>
-		</section>
-
-		<section class="map-containter">
-			<div class="contact_container">
-				<span class="address">СТАЧКИ 213</span>
-				<span class="mobile">тел : +7 (863) 305 16 05</span>
-			</div>
-			<div id="map-canvas">
-
-			</div>
-		</section>
-
-		<script src="js/jquery.js"></script>
 		<script src="js/fotorama.js"></script>
-
 		<script>
 			$('#fotorama').fotorama({
 				arrowPrev : '<div class="arrows left_arrow"></div>',
@@ -523,11 +489,64 @@
 			});
 
 		</script>
+		<script>
+			$(document).ready(function() {
+
+				// initialize the plugin, pass in the class selector for the sections of content (blocks)
+				var scrollorama = $.scrollorama({
+					blocks : '.scrollblock'
+				});
+
+				// assign function to add behavior for onBlockChange event
+				scrollorama.onBlockChange(function() {
+					var i = scrollorama.blockIndex;
+					$('#console').css('display', 'block').text('onBlockChange | blockIndex:' + i + ' | current block: ' + scrollorama.settings.blocks.eq(i).attr('id'));
+				});
+				// animate the parallaxing
+				scrollorama.animate('#parallax2', {
+					delay : 200,
+					duration : 4000,
+					property : 'top',
+					start : 735,
+					end : -935
+				}).animate('#parallax3', {
+					delay : 380,
+					duration : 3800,
+					property : 'top',
+					start : 1700,
+					end : -1700
+				}).animate('#parallax4', {
+					delay : 530,
+					duration : 3700,
+					property : 'top',
+					start : 2605,
+					end : -2605
+				}).animate('#parallax5', {
+					delay : 680,
+					duration : 3600,
+					property : 'top',
+					start : 3840,
+					end : -3840
+				}).animate('#parallax6', {
+					delay : 830,
+					duration : 3500,
+					property : 'top',
+					start : 4770,
+					end : -4770
+				}).animate('#parallax7', {
+					delay : 980,
+					duration : 3600,
+					property : 'top',
+					start : 5710,
+					end : -5710
+				});
+			});
+		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script>
 			function initialize() {
 				var mapOptions = {
-					zoom : 18,
+					zoom : 17,
 					center : new google.maps.LatLng(47.210951, 39.632921),
 					mapTypeId : google.maps.MapTypeId.SATELLITE
 				}
@@ -546,7 +565,5 @@
 			google.maps.event.addDomListener(window, 'load', initialize);
 
 		</script>
-		<script src="js/navscript.js"></script>
-
 	</body>
 </html>
